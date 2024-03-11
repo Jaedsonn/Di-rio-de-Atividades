@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+
+main{
+  width:350px;
+  height:510px;
+  padding:10px;
+  background:#FFB6C1;
+  border-radius:12px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  gap:15px;
+  align-items:center;
+  border:solid 1px black;
+}
+
+form{
+  width:290px;
+  height:410px;
+  padding:10px;
+  border-radius:14px;
+  background-color:#F5FFFA;
+  flex-wrap: wrap;
+  border:solid 1px black;
+}
+
+#inAtividade{
+  padding:3px;
+  border-radius:8px;
+  border:solid 1px black;
+  width:230px;
+  height: 35px;
+}
+
+#listaDeAtividades{
+  width:100%;
+  display:flex;
+  align-items:flex-start;
+  justify-content:center;
+  flex-direction:column;
+  padding:10px;
+  list-style: none;
+}
+
+li{
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width:fit-content;
+  margin-left:5px;
+  font-size: 20px;
+  
+}
+
+#btn-container{
+  width:100%;
+  height:10px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:20px;
+}
+
+.btn{
+ font-family: "Ojuju", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  height:25px;
+  width:25px;
+  border-radius:50%;
+  border:solid 1px black;
+}
+
+#btAdicionar{
+  background-color:lightgreen;
+}
+
+#btSelecionar{
+  background-color:lightblue;
+}
+
+#btRetirar{
+  background-color:#ff5b5b;
+}
+
+#btGravar{
+  background-color:darkblue;
+}
+
+/* Começando a criar os estilos para os botões selecionados*/
+
+.selecionado{
+  border-bottom:solid 2px black;
+  color: #FFB6C1;
+}
